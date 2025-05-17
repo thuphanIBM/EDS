@@ -1,6 +1,6 @@
 
 CREATE TABLE properties (
-  case_type VARCHAR(25),
+  objecttype VARCHAR(25),
   symbolicName VARCHAR(25),
   value VARCHAR(100),
   customValidationError VARCHAR(255),
