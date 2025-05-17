@@ -12,3 +12,9 @@ CREATE TABLE properties (
   hasDependentProperties BOOLEAN,
   choiceList VARCHAR(25)
 );
+
+CREATE TABLE choicelist (
+  name VARCHAR(20),
+  displayName VARCHAR(50),
+  value VARCHAR(50)
+);
